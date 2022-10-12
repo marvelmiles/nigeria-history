@@ -3,7 +3,12 @@ import chalkAnimation from "chalkercli";
 
 export const sleep = (ms = 500) => new Promise(r => setTimeout(r, ms));
 
-export const handleAnswer = async (isCorrect, playerName, logText = true) => {
+export const handleAnswer = async (
+  isCorrect,
+  playerName,
+  logText = true,
+  text
+) => {
   const spinner = createSpinner("Checking answer...").start();
   await sleep();
   if (isCorrect) {

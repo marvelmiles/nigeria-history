@@ -90,6 +90,7 @@ async function askQuestion() {
     else await startJubilating();
   } else await askQuestion(false);
 }
-await welcome();
-await askName();
-await askQuestion();
+// await welcome();
+// await askName();
+// await askQuestion();
+console.log(process.argv);
