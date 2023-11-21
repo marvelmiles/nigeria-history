@@ -7,8 +7,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon .",
-    "start": "node index.js"
+    "dev": "nodemon  --experimental-modules --experimental-specifier-resolution=node --no-stdin .",
+    "start": "node  --experimental-modules --experimental-specifier-resolution=node index.js"
   },
   "keywords": [],
   "author": "",
