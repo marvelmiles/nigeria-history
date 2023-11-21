@@ -4,8 +4,8 @@ A cli quiz about nigeria history
 
 ## CMD
 
-server: npm start
-local: npm run dev
+- server: npm start
+- local: npm run dev
 
 ## Technologies
 
